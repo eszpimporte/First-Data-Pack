@@ -1,0 +1,1 @@
+$execute run tp @s $(x) 120 $(z)

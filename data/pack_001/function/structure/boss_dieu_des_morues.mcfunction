@@ -1,0 +1,3 @@
+place template pack_001:boss_structures/arene_boss_dieu_des_morues ~ ~ ~ none none
+
+summon drowned ~15 ~4 ~15 {CustomName:[{text:"Le dieu des morues",bold:true,color:"#00bfff"}],CustomNameVisible:1b,Health:150,Glowing:1b,LeftHanded:1b,DeathLootTable:"pack_001:boss_loot_a",PersistenceRequired:1b,active_effects:[{id:speed,duration:-1,amplifier:2,show_particles:0b}],equipment:{mainhand:{id:trident},offhand:{id:cod_bucket},head:{id:diamond_helmet},chest:{id:diamond_chestplate}},drop_chances:{mainhand:0.5f,offhand:1f,head:0.35f,chest:0.35f},attributes:[{id:step_height,base:3f},{id:attack_damage,base:5f},{id:water_movement_efficiency,base:0.5f},{id:movement_speed,base:1.2f},{id:max_health,base:150f}]}

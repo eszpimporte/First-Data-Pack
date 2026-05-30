@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:shulker_spawn_egg",
+    "minecraft:diamond_sword",
+    "minecraft:spire_armor_trim_smithing_template"
+  ],
+  "result": {
+    "id": "minecraft:netherite_sword",
+    "components": {
+      "minecraft:item_name": "Enderite sword",
+      "minecraft:rarity": "uncommon",
+      "minecraft:max_damage": 5084,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:",
+          "amount": 10,
+          "operation": "add_value",
+          "slot": "mainhand"
+        }
+      ]
+    }
+  }
+}

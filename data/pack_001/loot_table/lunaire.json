@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_spawn_egg",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Roche des lunes",
+                "minecraft:rarity": "rare",
+                "minecraft:lore": [
+                  {
+                    "text": "Faire cuire ce minerai longtemps",
+                    "color": "#156465"
+                  }
+                ],
+                "minecraft:entity_data": {
+                  "id": "minecraft:bat",
+                  "Health": 0
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

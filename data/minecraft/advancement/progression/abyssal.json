@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": "minecraft:prismarine_shard",
+    "title": "au plus profond des crafts",
+    "description": "Fabriquez un abyssal ingot"
+  },
+  "parent": "minecraft:progression/artefact_ocean",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "pack_001:ore_update/abyssal_ingot"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pack_001:outils_customs/trident"
+    ],
+    "experience": 5
+  }
+}

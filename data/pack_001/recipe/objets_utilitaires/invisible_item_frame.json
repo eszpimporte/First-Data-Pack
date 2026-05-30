@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gIg",
+    "IcI",
+    "gIg"
+  ],
+  "key": {
+    "I": "minecraft:item_frame",
+    "c": "minecraft:golden_carrot",
+    "g": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "minecraft:item_frame",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:item_frame",
+        "Invisible": true
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_name": "Invisible Item Frame"
+    },
+    "count": 4
+  }
+}

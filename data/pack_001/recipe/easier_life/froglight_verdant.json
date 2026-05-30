@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#minecraft:leaves",
+    "minecraft:moss_block",
+    "minecraft:glowstone_dust",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "minecraft:verdant_froglight"
+  }
+}

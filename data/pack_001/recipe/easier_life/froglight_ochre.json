@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:honeycomb",
+    "minecraft:moss_block",
+    "minecraft:glowstone_dust",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "minecraft:ochre_froglight"
+  }
+}

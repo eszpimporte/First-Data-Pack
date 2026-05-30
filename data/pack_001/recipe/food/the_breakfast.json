@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      "minecraft:dragon_egg"
+    ],
+    [
+      "minecraft:beacon"
+    ],
+    [
+      "minecraft:bread"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:item_model": "minecraft:cooked_beef",
+      "minecraft:item_name": "THE BREAKFAST",
+      "minecraft:rarity": "epic",
+      "minecraft:food": {
+        "nutrition": 20,
+        "saturation": 20,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 5,
+        "animation": "drink",
+        "sound": "minecraft:entity.player.attack.sweep",
+        "has_consume_particles": true
+      }
+    }
+  }
+}

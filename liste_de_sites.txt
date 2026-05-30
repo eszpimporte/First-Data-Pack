@@ -1,0 +1,20 @@
+https://misode.github.io/predicate/
+pour les predicate
+
+https://misode.github.io/recipe/
+pour les recettes
+
+https://misode.github.io/loot-table/
+pour les loot table
+
+https://misode.github.io/advancement/
+pour les avancements
+
+https://www.gamergeeks.net/apps/minecraft/give-command-generator
+pour les items et autres à droite
+
+https://minecraft.wiki/w/Tutorial:Adding_a_new_dimension
+la nouvelle diension
+
+pour les datas dans minecraft de base
+https://mcasset.cloud/1.21.11/data/minecraft

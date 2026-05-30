@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": "minecraft:sniffer_spawn_egg",
+    "title": "Déterrer ... un truc de plus",
+    "description": "Faites de l'archéologie pour déterrer un artefact !",
+    "background": "minecraft:block/dirt",
+    "frame": "task"
+  },
+  "parent": "progression/sniffer_egg",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sniffer_spawn_egg",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": []
+  }
+}

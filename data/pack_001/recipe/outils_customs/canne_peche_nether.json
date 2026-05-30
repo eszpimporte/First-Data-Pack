@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:fishing_rod",
+    "minecraft:netherite_ingot"
+  ],
+  "result": {
+    "id": "minecraft:fishing_rod",
+    "components": {
+      "minecraft:item_name": "Canne à pêche en netherite",
+      "minecraft:rarity": "epic",
+      "minecraft:max_damage": 640,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:water_movement_efficiency",
+          "id": "minecraft:",
+          "amount": 1,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:luck",
+          "id": "minecraft:",
+          "amount": 3,
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+}

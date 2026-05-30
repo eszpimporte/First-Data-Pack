@@ -1,0 +1,2 @@
+advancement revoke @s only pack_001:new_adventure/warning_nether
+execute if score #bool_event_appening nether_event matches 1 run tellraw @s [{"text":"Attention, le nether est actuellement en éruption, QUITTE LA DIMENSION IMMEDIATEMENT !", "color":"red"}]

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    "bpb",
+    " b "
+  ],
+  "key": {
+    "b": [
+      "minecraft:iron_bars"
+    ],
+    "p": [
+      "minecraft:allay_spawn_egg"
+    ]
+  },
+  "result": {
+    "id": "minecraft:spawner",
+    "components": {}
+  }
+}

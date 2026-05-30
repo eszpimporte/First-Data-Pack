@@ -1,0 +1,2 @@
+tellraw @a[predicate=pack_001:dimension/nether] [{"text":"Attention, le nether rentre en éruption volcanique, très prochainement le nether deviendra invivable pour les joueurs pour une durée d'environ 3 minutes. QUITTEZ IMMEDIATEMENT LA DIMENSION !!!", "color":"red"}]
+scoreboard players set #event_date nether_event 360

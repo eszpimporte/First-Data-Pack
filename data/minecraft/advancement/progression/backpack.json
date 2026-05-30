@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": "minecraft:bundle",
+    "title": "C'est pas TCL ici",
+    "description": "Fabriquer un backpack pour votre plus grand confort",
+    "frame": "task"
+  },
+  "parent": "progression/metalbis",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "backpacks:backpack"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

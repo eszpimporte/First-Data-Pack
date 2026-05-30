@@ -1,0 +1,1 @@
+$scoreboard players set #event_date nether_event $(int)

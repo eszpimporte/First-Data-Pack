@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:diamond_chestplate",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:spire_armor_trim_smithing_template"
+  ],
+  "result": {
+    "id": "minecraft:netherite_chestplate",
+    "components": {
+      "minecraft:item_name": "Enderite Chestplate",
+      "minecraft:rarity": "epic",
+      "minecraft:max_damage": 1000,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:",
+          "amount": 10,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "chest"
+        },
+        {
+          "type": "minecraft:max_health",
+          "id": "minecraft:",
+          "amount": 2,
+          "operation": "add_value",
+          "slot": "chest"
+        }
+      ]
+    }
+  }
+}

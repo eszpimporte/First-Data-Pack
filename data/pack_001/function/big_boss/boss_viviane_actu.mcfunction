@@ -1,0 +1,1 @@
+$bossbar set minecraft:viviane value $(value)

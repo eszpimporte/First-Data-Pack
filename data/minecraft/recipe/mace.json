@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:heavy_core",
+    "I": "minecraft:breeze_rod",
+    "p": "minecraft:allay_spawn_egg"
+  },
+  "pattern": [
+    " # ",
+    " p ",
+    " I "
+  ],
+  "result": {
+    "id": "minecraft:mace"
+  }
+}

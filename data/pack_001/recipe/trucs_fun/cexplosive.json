@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "minecraft:tnt",
+  "result": {
+    "id": "minecraft:creeper_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:tnt",
+        "NoGravity": true,
+        "CustomName": "C4",
+        "CustomNameVisible": true,
+        "Glowing": true,
+        "fuse": 100,
+        "explosion_power": 7
+      }
+    }
+  },
+  "cookingtime": 400
+}

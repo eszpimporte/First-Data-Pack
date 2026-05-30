@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": [
+    "minecraft:diamond_horse_armor",
+    "minecraft:diamond_nautilus_armor"
+  ],
+  "result": {
+    "id": "minecraft:diamond",
+    "count": 6
+  }
+}

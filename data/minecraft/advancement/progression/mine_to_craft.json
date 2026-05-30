@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": "minecraft:iron_pickaxe",
+    "title": "Craft pour miner",
+    "description": "Craft une pioche, ce n'est que le début du minage."
+  },
+  "parent": "minecraft:progression/craft_to_craft",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:copper_pickaxe"
+      }
+    },
+    "a": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:diamond_pickaxe"
+      }
+    },
+    "z": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:golden_pickaxe"
+      }
+    },
+    "r": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:iron_pickaxe"
+      }
+    },
+    "t": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:netherite_pickaxe_smithing"
+      }
+    },
+    "y": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:stone_pickaxe"
+      }
+    },
+    "u": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wooden_pickaxe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "&",
+      "a",
+      "z",
+      "t",
+      "r",
+      "y",
+      "u"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pack_001:easier_life/iron_trash",
+      "pack_001:easier_life/eau_stackable",
+      "pack_001:easier_life/dupli_cornflower",
+      "pack_001:easier_life/lava_stackable",
+      "pack_001:easier_life/smelting_d_armors",
+      "pack_001:food/omelette_feu",
+      "pack_001:food/omelette_smelt",
+      "pack_001:food/omelette_smoke",
+      "pack_001:ore_update/steel_ingot",
+      "pack_001:outils_customs/arc_agile",
+      "pack_001:outils_customs/canne_peche_nether",
+      "pack_001:outils_customs/elytra_renforced",
+      "pack_001:objets_utilitaires/invisible_item_frame",
+      "pack_001:easier_life/deepslate"
+    ]}
+}

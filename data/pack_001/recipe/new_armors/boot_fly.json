@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ea",
+    "fbf",
+    " c "
+  ],
+  "key": {
+    "c": "minecraft:cat_spawn_egg",
+    "b": "minecraft:iron_boots",
+    "a": "minecraft:cow_spawn_egg",
+    "f": "minecraft:feather",
+    "e": "minecraft:shulker_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:iron_boots",
+    "components": {
+      "minecraft:custom_data": {
+        "fly": true
+      },
+      "minecraft:item_name": "Bottes d'Harry Pot de beurre"
+    }
+  }
+}

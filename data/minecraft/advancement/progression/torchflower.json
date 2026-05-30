@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower"
+    },
+    "title": "Obtenez le feu de la nature",
+    "description": "Obtenez cette plante"
+  },
+  "parent": "minecraft:progression/sniffer_egg",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pack_001:easier_life/torchflower_seeds"
+    ]
+  }
+}

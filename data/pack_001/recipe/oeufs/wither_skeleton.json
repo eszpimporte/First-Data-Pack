@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "www",
+    "glg",
+    "sss"
+  ],
+  "key": {
+    "l": "minecraft:phantom_spawn_egg",
+    "w": "minecraft:wither_skeleton_skull",
+    "g": "minecraft:gold_block",
+    "s": "minecraft:soul_sand"
+  },
+  "result": {
+    "id": "minecraft:creeper_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:wither_skeleton"
+      },
+      "minecraft:item_name": "Wither spawn egg",
+      "minecraft:item_model": "minecraft:wither_skeleton_spawn_egg"
+    }
+  }
+}

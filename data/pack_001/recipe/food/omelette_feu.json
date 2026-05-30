@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "ingredient": "#minecraft:eggs",
+  "result": {
+    "id": "minecraft:clock",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 3,
+        "can_always_eat": false
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 0.8,
+        "animation": "eat",
+        "sound": "minecraft:entity.turtle.egg_break",
+        "has_consume_particles": true
+      },
+      "minecraft:item_name": "Omelette",
+      "minecraft:item_model": "minecraft:brown_egg"
+    }
+  },
+  "experience": 1,
+  "cookingtime": 15
+}

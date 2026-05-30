@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:bedrock"
+  ],
+  "result": {
+    "id": "minecraft:cow_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:cow"
+      },
+      "minecraft:item_name": "Noix de Korogu",
+      "minecraft:item_model": "minecraft:golden_carrot",
+      "minecraft:lore": [
+        "Se trouve un peu partout ... mais vous maudis plus qu'autre chose"
+      ],
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

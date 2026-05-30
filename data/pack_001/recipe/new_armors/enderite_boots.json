@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:diamond_boots",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:spire_armor_trim_smithing_template"
+  ],
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "components": {
+      "minecraft:item_name": "Enderite Boots",
+      "minecraft:rarity": "epic",
+      "minecraft:max_damage": 950,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "feet"
+        },
+        {
+          "type": "minecraft:step_height",
+          "id": "minecraft:",
+          "amount": 0.5,
+          "operation": "add_value",
+          "slot": "feet"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$execute run tp @s $(x) $(y) $(z)

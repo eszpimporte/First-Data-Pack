@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": "minecraft:wither_skeleton_skull",
+    "title": "Renvoyer un démon chez les morts",
+    "description": "Tuer un wither",
+    "frame": "task"
+  },
+  "parent": "progression/metalbis",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "recipes": ["pack_001:ore_update/starite"]
+  }
+}

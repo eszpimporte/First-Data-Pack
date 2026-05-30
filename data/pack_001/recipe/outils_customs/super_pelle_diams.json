@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " d",
+    "wcw",
+    " c "
+  ],
+  "key": {
+    "d": "minecraft:diamond_block",
+    "c": "minecraft:ancient_debris",
+    "w": "minecraft:cow_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:diamond_shovel",
+    "components": {
+      "minecraft:item_name": "Super pelle en diamant",
+      "minecraft:max_damage": 32000,
+      "minecraft:rarity": "rare",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:block_interaction_range",
+          "id": "minecraft:",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:mining_efficiency",
+          "id": "minecraft:",
+          "amount": 10,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:block_break_speed",
+          "id": "minecraft:",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "hand"
+        }
+      ]
+    }
+  }
+}

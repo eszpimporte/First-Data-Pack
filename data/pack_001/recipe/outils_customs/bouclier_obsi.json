@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "odo",
+    "oso",
+    " o "
+  ],
+  "key": {
+    "o": "minecraft:obsidian",
+    "d": "minecraft:diamond",
+    "s": "minecraft:iron_golem_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:shield",
+    "components": {
+      "minecraft:max_damage": 2700,
+      "minecraft:item_model": "minecraft:shield",
+      "minecraft:item_name": "Bouclier en obsidienne",
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

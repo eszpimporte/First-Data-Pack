@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:skeleton_spawn_egg",
+  "result": {
+    "id": "minecraft:wither_skeleton_spawn_egg",
+    "components": {
+      "minecraft:item_name": "bijou lunaire",
+      "minecraft:rarity": "rare",
+      "minecraft:entity_data": {
+        "id": "minecraft:cherry_boat"
+      }
+    }
+  },
+  "experience": 300,
+  "cookingtime": 3600
+}

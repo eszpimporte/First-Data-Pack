@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "gg",
+    "gg"
+  ],
+  "key": {
+    "g": [
+      "minecraft:ice"
+    ]
+  },
+  "result": {
+    "id": "minecraft:packed_ice",
+    "count": 1
+  }
+}

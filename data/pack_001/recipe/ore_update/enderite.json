@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ceo",
+    "enb",
+    "cec"
+  ],
+  "key": {
+    "n": [
+      "minecraft:netherite_ingot"
+    ],
+    "b": [
+      "minecraft:dragon_breath"
+    ],
+    "e":"chain_command_block",
+    "o": [
+      "minecraft:enderman_spawn_egg"
+    ],
+    "c": [
+      "minecraft:chorus_fruit"
+    ]
+  },
+  "result": {
+    "id": "minecraft:shulker_spawn_egg",
+    "components": {
+      "minecraft:custom_name": "enderite",
+      "minecraft:rarity": "rare",
+      "minecraft:lore": [
+        "Un minerai provenant d'un monde lointain ... ses pouvoirs sont convoités"
+      ],
+      "minecraft:entity_data": {
+        "id": "minecraft:bat",
+        "CustomName": "Tu as fais tomber un truc je crois ...",
+        "Health": 0
+    }
+  }
+}}

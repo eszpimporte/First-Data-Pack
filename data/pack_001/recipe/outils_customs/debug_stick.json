@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ror",
+    "tsp",
+    "fbd"
+  ],
+  "key": {
+    "s": "minecraft:stick",
+    "b": "#minecraft:beds",
+    "f": "#minecraft:fences",
+    "d": "#minecraft:doors",
+    "t": "#minecraft:trapdoors",
+    "p": "minecraft:sticky_piston",
+    "r": "minecraft:redstone_block",
+    "o": "minecraft:diamond"
+  },
+  "result": {
+    "id": "minecraft:debug_stick"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": "minecraft:end_stone",
+    "title": "Caché à la fin du monde",
+    "description": "obtenez un minerai d'enderite",
+    "frame": "task"
+  },
+  "parent": "progression/the_end",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chain_command_block",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pack_001:new_armors/enderite_boots",
+      "pack_001:ore_update/enderite",
+      "pack_001:new_armors/enderite_chestplate",
+      "pack_001:new_armors/enderite_helmet",
+      "pack_001:new_armors/enderite_leggings",
+      "pack_001:new_tools/enderite_pickaxe"
+    ],
+    "experience": 10
+  }
+}

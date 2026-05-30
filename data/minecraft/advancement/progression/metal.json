@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": "minecraft:iron_ingot",
+    "title": "METAL",
+    "description": "Fabriquez un lingot d'acier"
+  },
+  "parent": "minecraft:progression/mine_to_craft",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "pack_001:ore_update/steel_ingot"
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pack_001:ore_update/protosteel",
+      "pack_001:outils_customs/bouclier_obsi"
+    ],
+    "experience": 5
+  }
+}

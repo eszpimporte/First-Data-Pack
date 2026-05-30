@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "b": "minecraft:bow",
+    "f": "minecraft:feather",
+    "d": "minecraft:diamond"
+  },
+  "pattern": [
+    " fd",
+    "fbd",
+    " fd"
+  ],
+  "result": {
+    "id": "minecraft:bow",
+    "components": {
+      "minecraft:max_damage": 450,
+      "minecraft:use_effects": {
+        "can_sprint": true,
+        "speed_multiplier": 0.9
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 0.3
+      },
+      "minecraft:item_name": "Arc d'agilité",
+      "minecraft:rarity": "uncommon"
+    }
+  }
+}

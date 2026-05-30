@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "ege",
+    "als",
+    "ggg"
+  ],
+  "key": {
+    "a": "minecraft:bee_spawn_egg",
+    "s": "minecraft:ghast_spawn_egg",
+    "e": "minecraft:emerald",
+    "g": "minecraft:gold_ingot",
+    "l": "minecraft:phantom_spawn_egg"
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying"
+  }
+}

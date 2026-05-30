@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "sss",
+    "sls",
+    "sss"
+  ],
+  "key": {
+    "l": "minecraft:phantom_spawn_egg",
+    "s": "minecraft:feather"
+  },
+  "result": {
+    "id": "minecraft:creeper_spawn_egg",
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:allay"
+      },
+      "minecraft:item_name": "Un allay en bouteille",
+      "minecraft:item_model": "minecraft:experience_bottle",
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+}

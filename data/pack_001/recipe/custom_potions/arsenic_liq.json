@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:potion",
+    "minecraft:poisonous_potato",
+    "minecraft:fermented_spider_eye",
+    "minecraft:spider_eye"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:poison",
+        "custom_color": 52333,
+        "custom_effects": [
+          {
+            "id": "minecraft:wither",
+            "amplifier": 4,
+            "duration": 200
+          },
+          {
+            "id": "minecraft:poison",
+            "amplifier": 5,
+            "duration": 400
+          }
+        ]
+      },
+      "minecraft:item_name": "Arsenic liquide"
+    }
+  }
+}

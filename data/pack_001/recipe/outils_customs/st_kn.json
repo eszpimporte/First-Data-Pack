@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "gsg",
+    "xdx",
+    "   "
+  ],
+  "key": {
+    "d": "minecraft:debug_stick",
+    "x": "minecraft:experience_bottle",
+    "s": "#minecraft:swords",
+    "g": "minecraft:rabbit_foot"
+  },
+  "result": {
+    "id": "minecraft:stick",
+    "components": {
+      "minecraft:enchantments": {
+        "minecraft:knockback": 15
+      },
+      "minecraft:rarity":"uncommon",
+      "minecraft:item_name": "knockback stick"
+    }
+  }
+}

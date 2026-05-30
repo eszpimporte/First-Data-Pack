@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " c ",
+    "mam",
+    " b "
+  ],
+  "key": {
+    "c": "minecraft:cow_spawn_egg",
+    "b": "minecraft:wither_skeleton_spawn_egg",
+    "a": "minecraft:bee_spawn_egg",
+    "m": "minecraft:lodestone"
+  },
+  "result": {
+    "id": "minecraft:goat_horn",
+    "components": {
+      "minecraft:item_name": "Boussole déchireuse d'espace-temps",
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_model": "minecraft:compass",
+      "minecraft:rarity": "uncommon",
+      "minecraft:custom_data": {
+        "state": 0,
+        "marque_tp": true,
+        "coords": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      "minecraft:lore": [
+        {
+          "text": "Clique droit pour marquer votre position",
+          "color": "white"
+        }
+      ]
+    }
+  }
+}

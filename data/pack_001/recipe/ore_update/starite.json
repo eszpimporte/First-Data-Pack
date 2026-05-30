@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "obo",
+    "ntn",
+    "cbo"
+  ],
+  "key": {
+    "t": [
+      "minecraft:ghast_tear"
+    ],
+    "c":"torchflower",
+    "o": [
+      "minecraft:blaze_spawn_egg"
+    ],
+    "n": [
+      "minecraft:nether_star"
+    ],
+    "b": [
+      "minecraft:blaze_powder"
+    ]
+  },
+  "result": {
+    "id": "minecraft:ghast_spawn_egg",
+    "components": {
+      "minecraft:custom_name": "starite",
+      "minecraft:rarity": "rare",
+      "minecraft:lore": [
+        "Fait de feu, de sang et de pleures"
+      ],
+      "minecraft:entity_data": {
+        "id": "minecraft:bat",
+        "CustomName": "Tu as fais tomber un truc je crois ...",
+        "Health": 0
+    }
+  },
+  "count": 4
+}}

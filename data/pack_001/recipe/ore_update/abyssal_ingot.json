@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "pkp",
+    "dsd",
+    "pdp"
+  ],
+  "key": {
+    "k": [
+      "minecraft:sculk_shrieker"
+    ],
+    "p": [
+      "minecraft:prismarine"
+    ],
+    "d": [
+      "minecraft:dark_prismarine"
+    ],
+    "s": [
+      "minecraft:silverfish_spawn_egg"
+    ]
+  },
+  "result": {
+    "id": "minecraft:bee_spawn_egg",
+    "components": {
+      "minecraft:item_name": "abyssal ingot",
+      "minecraft:lore": [
+        "Lingot conçu par les profondeurs de ce monde "
+      ],
+      "minecraft:rarity": "rare",
+      "minecraft:entity_data": {
+        "id": "minecraft:giant",
+        "CustomName": "Tu as fais tomber un truc je crois ...",
+        "CustomNameVisible": true,
+        "Glowing": true,
+        "NoAI": false
+      }
+    },
+    "count": 1
+  }
+}

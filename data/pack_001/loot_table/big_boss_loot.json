@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cat_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "minecraft:glowstone_dust",
+                "minecraft:item_name": "Magic powder",
+                "minecraft:enchantment_glint_override": true,
+                "minecraft:lore": [
+                  "Ne la mettez pas dans le nez"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pack_001:stuff_custom"
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "pack_001:lunaire"
+        }
+      ]
+    }
+  ]
+}

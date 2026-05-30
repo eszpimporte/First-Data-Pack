@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:elytra",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:phantom_membrane",
+    "minecraft:shulker_spawn_egg"
+  ],
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:safe_fall_distance",
+          "id": "minecraft:",
+          "amount": 10,
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:",
+          "amount": 5,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:item_name": "Elytra renforcée",
+      "minecraft:max_damage": 1000
+    }
+  }
+}

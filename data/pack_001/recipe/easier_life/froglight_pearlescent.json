@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:snow_block",
+    "minecraft:moss_block",
+    "minecraft:glowstone_dust",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "minecraft:pearlescent_froglight"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "show_notification": true,
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:diamond_helmet",
+    "minecraft:shulker_spawn_egg",
+    "minecraft:spire_armor_trim_smithing_template"
+  ],
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "components": {
+      "minecraft:item_name": "Enderite Helmet",
+      "minecraft:rarity": "epic",
+      "minecraft:max_damage": 850,
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:knockback_resistance",
+          "id": "minecraft:",
+          "amount": 0.1,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "id": "minecraft:",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:armor",
+          "id": "minecraft:",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "head"
+        },
+        {
+          "type": "minecraft:mining_efficiency",
+          "id": "minecraft:",
+          "amount": 1,
+          "operation": "add_value",
+          "slot": "head"
+        }
+      ]
+    }
+  }
+}

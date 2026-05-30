@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "show_notification": true,
+  "category": "equipment",
+  "pattern": [
+    "rws",
+    "fff",
+    "ggg"
+  ],
+  "key": {
+    "f": [
+      "minecraft:iron_golem_spawn_egg"
+    ],
+    "g": [
+      "minecraft:gold_block"
+    ],
+    "w": [
+      "minecraft:glowstone_dust"
+    ],
+    "r": [
+      "minecraft:gunpowder"
+    ],
+    "s": [
+      "minecraft:redstone"
+    ]
+  },
+  "result": {
+    "id": "minecraft:allay_spawn_egg",
+    "components": {
+      "minecraft:can_place_on": [
+        {
+          "blocks": "barrier"
+        }
+      ],
+      "minecraft:lore": [
+        "Lingot d'une densité folle"
+      ],
+      "minecraft:custom_name": "Protosteel",
+      "minecraft:item_name": "Protosteel",
+      "minecraft:rarity": "rare",
+      "minecraft:max_stack_size": 16,
+      "minecraft:entity_data": {
+        "id": "minecraft:bat",
+        "CustomName": "Tu as fais tomber un truc je crois ...",
+        "Health": 0
+      }
+    }
+  }
+}
