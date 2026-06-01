@@ -1,0 +1,2 @@
+# Give the executor a book with custom data
+give @s book[minecraft:custom_data={disenchant:true}, minecraft:consumable={consume_seconds:1000000}, minecraft:food={nutrition:0, saturation:0, can_always_eat:true}, minecraft:item_name='"Disenchant Book"', minecraft:lore=['"Hold item in offhand"', '"Right click book"']]

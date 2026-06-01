@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "dfd",
+    "ala",
+    "ppp"
+  ],
+  "key": {
+    "l": "minecraft:leather",
+    "p": "paper",
+    "d": "minecraft:diamond",
+    "a": "minecraft:amethyst_shard",
+    "f": "minecraft:experience_bottle"
+  },
+  "result": {
+    "id": "minecraft:book",
+    "components": {
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:consumable": {
+        "consume_seconds": 1000000
+      },
+      "minecraft:item_name": "Disenchant Book",
+      "minecraft:custom_data": "{disenchant:true}",
+      "minecraft:lore": [
+        "Hold item in offhand",
+        "Right click book"
+      ]
+    },
+    "count": 1
+  }
+}

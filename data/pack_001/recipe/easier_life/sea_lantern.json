@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " z ",
+    "zaz",
+    " z "
+  ],
+  "key": {
+    "a": "minecraft:torch",
+    "z": "minecraft:prismarine_shard"
+  },
+  "result": {
+    "id": "minecraft:sea_lantern",
+    "components": {}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "use_book": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "disenchant": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "disenchanting:book/use_book"
+  }
+}
