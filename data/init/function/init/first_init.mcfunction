@@ -5,6 +5,10 @@
 #Le scoreboard server gère toutes les variables en rapport avec les processus d'initialisation du data-pack et des données.
 scoreboard objectives add server dummy
 scoreboard players set #has_init server 0
+scoreboard players set #has_change_parametters server 0
+data modify storage dp:server random.int set value 0
+data modify storage dp:server random.dec set value 0
+
 
 
 #Le scoreboard difficulty gère tout ce qui est en rapport avec la difficulté du monde : les dangers, les zones bloquées, les crafts et advancement pas unlock. C'est-à-dire la survie des joueurs en général.
@@ -27,11 +31,14 @@ scoreboard players set #holder_3 holder 0
 scoreboard players set #holder_x holder 0
 scoreboard players set #holder_y holder 0
 scoreboard players set #holder_z holder 0
-data modify storage holder temp set value 0
-data modify storage holder holder_1 set value 0
-data modify storage holder holder_2 set value 0
-data modify storage holder holder_3 set value 0
-data modify storage holder holder_x set value 0
-data modify storage holder holder_y set value 0
-data modify storage holder holder_z set value 0
+data modify storage dp:holder temp set value 0
+data modify storage dp:holder holder_1 set value 0
+data modify storage dp:holder holder_2 set value 0
+data modify storage dp:holder holder_3 set value 0
 #Il n'y a aucune différence entre les holders, ils sont juste là pour faire pacerelles.
+
+
+function init:init/set_parametters
+
+
+function init:init/reload

@@ -1,5 +1,4 @@
 command_block : backpack
-oeuf de creeper : réservé aux apparations de mobs customs ou entités
 
 chain_command_block : minerai d'enderite
 oeuf de skellette : roche des lunes
@@ -21,4 +20,6 @@ oeuf de phamtom : âme de mob
 oeuf de vache : noix de korogu
 
 oeuf de chat : poudre magique
+
+oeuf de chauve sourie : spawner scrap
 

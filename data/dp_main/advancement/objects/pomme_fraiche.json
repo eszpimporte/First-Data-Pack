@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "c": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:apple",
+          "predicates": {
+            "minecraft:custom_data": "{\"heart\":true}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dp_main:objects/pomme_fraiche/apple_init"
+  }
+}
