@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": [
+      "minecraft:raw_iron"
+    ]
+  },
+  "result": {
+    "id": "minecraft:evoker_spawn_egg",
+    "components": {
+      "!minecraft:entity_data": {},
+      "minecraft:item_name": "Molten iron nuggets",
+      "minecraft:item_model": "minecraft:lava_bucket",
+      "minecraft:enchantment_glint_override": true
+    }
+  }
+} 

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:cave_spider_spawn_egg",
+  "result": {
+    "id": "minecraft:gold_nugget"
+  },
+  "experience": 5,
+  "cookingtime": 400
+}
