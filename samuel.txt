@@ -1,0 +1,169 @@
+
+/data modify entity @e[type=item,limit=1,sort=nearest] Item.components."minecraft:written_book_content".author set value "New Name"
+
+TO DO :
+
+boucler la zone du spawn (murs)  -> pr Matis
+entrée dans le spawn qui met en aventure
+firts init de player qui spawn pr la premuère fois
+l'affichage des pseudos avec un statu ?
+système qui empêche de se frapper dn le spawn sinn conséquences
+chemins vers l' "overworld" depuis le spawn
+probas d'attérir dans la dimension ténébreuse lorsqu'on meurt
+gravestone
+système de choix de métier au spawn
+arbre d'améliorations (advancements déguisés)
+
+
+
+faire la dimension de l' "overworld", limiter la survie de base là-bas, reset toutes les loot table
+faire les nouvelles structures (ou utiliser les anciennes comme les villages)
+limiter les biomes de con de l overworld de base mais rendre ceux existant plus fantaisistes ou denses
+mobs basiques faibles qui spawn mais avec du custom (slime chevauché par un zombi par exemple)
+nouveaux échanges avec les villageois
+
+
+faire le lore (réservé à ce fou de Samuel)
+faire des musiques de boss, chelous pour l'ambiance dn les dimensions
+
+système de température
+
+faire le ressource pack
+
+
+
+
+
+
+ressources intermédiaires ajoutée :
+- manche (avec du cuir pour faire des armes et outils)
+- couvre-corps (avec du cuir pour les armures)
+- hachettes, pioches mineures, coupe-herbe, marteau
+- instrument en bois
+- engrenage
+- moule
+- pièce renforcée et movible
+- tissu
+- acier
+- protosteel
+- abissal ingot
+- starite
+- enderite
+- bijoux lunaires
+- féérite
+- pierre de mana
+- artéfacts
+- écusson
+- poudre magique
+- korogu
+
+
+
+
+
+
+bouf :
+- omelettes
+- fromage
+- raisins
+- vins
+- poudre pas net 
+
+
+
+toujours les altars des dimensions maudites lol
+
+objets :
+- objet de tp (en cours Samuel)
+- désanchantement (merci Matis)
+- loot box basique ?
+- idée de craft (du genre ça give un craft parmi une lise de chelous)
+- table d'enchantement plus dur à avoir
+- enclume idem
+
+- dash object (une lance mais drôle), BIG DASH
+- dash verticale (du genre une wind charge sous nos pieds)
+- batons d'invocations ???
+- effets de popo chelous ou gros
+- healer (baton de heal)
+- gros bucket (d'eau de lave ...)
+- talisman anti-chaleur extrême (idem avec le froid)
+- bottes des septs lieus, bottes de sonic
+- objet de fly
+- élytre renforcées
+- remonte à la surface ("overworld" only j pense)
+- pomme fraiche et équivalents
+- nage rapide et respi+++
+- destroy block (hors zones adventure)
+- shopcase
+- backpack
+- cânne à pêche cheat (trouver les histoires de luck)
+- anti-void (fait rebondir à -10 blocks en dessous du dernier étage)
+- bateau volant ?? en vrai fun nan ?
+- anti-gravity
+- générateurs de monstres
+- usines de ressources
+- villageois craftables "robots"
+- double saut ?
+- mineur rapide (on casse tout d'un coup), pète sous nos pieds
+- super boufs
+- écarte mobs 
+- aimant à items
+- houx qui plante automatiquement
+- objet qui fait raptissir le player
+- créer une plateforme sous nous par clicl
+- respawn point dans les dimensions + dures (respawn anchors)
+- boost d'armure complète (avec les trims)
+- zone de damage autour du joueur ???
+- fouiller des ruines, des blocks
+- canne à pêche de lave
+- tous les objets pour aller dn d'autres dimensions
+- guérrisseur d'effets néfastes
+- hold-items qui permet d'en avoir 1000 de ce type dn l'inventaire
+- boule de feu 
+- grab-entity (ultra chaud mais fun)
+- totems of undying
+- balise (voir auto-balise)
+- invo archers qui ciblent une entity
+- attaque des invocateurs avec les croquos
+- foudroyant !
+- burn everyone
+- se transfo en pierre de manière tempo (lenteur extrême mais rési 10)
+- auto-eat
+- glowing toutes les entity autour
+- mineur automatique de chunk
+- +++ reach pour build
+- auto bouf 
+- rayon laser
+- tp random
+- hotel des étoiles (pour en récupérer la nuit)
+- pose muraille temporaire
+- objet qui cri à tout le monde un truc juste pour troll
+- mines (creepers invisibles qui pète très proche et rapides)
+- sacrifices de ressources magiques pour obtenir des objets étranges
+- nouveaux blocs de build
+- super éponge
+- change le temps
+- change la météo
+
+
+
+
+Nouvelles armes et armures :
+- arc court (idée d 'Alban)
+- arc rapide (fait)
+- arc ender pearl
+- arc TP
+- arc mitraillette
+- trident (lol)
+- mace mais ptêtre la nerf car y'aura tellement de hauteur que wtf calmos
+- arc TNT (chiant mais oki)
+- dague ...
+- longsword  et autres ...
+- épées infusées qui donnent un effet
+- stun-mob (inflige grosse lenteur et faiblesse ptit instant)
+- shields améliorés
+- combo attaque 
+- rush attaque (fonce et frappe)
+
+
