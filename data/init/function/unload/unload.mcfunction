@@ -6,6 +6,9 @@ scoreboard players reset * server_health
 scoreboard players reset * boss_capa
 #pour le nb de death
 scoreboard players reset * server_death
+scoreboard players reset * lvl_metier
+scoreboard players reset * metier
+scoreboard players reset * xp_metier
 
 
 
@@ -14,6 +17,9 @@ scoreboard objectives remove server
 scoreboard objectives remove holder
 scoreboard objectives remove boss_capa
 scoreboard objectives remove server_death
+scoreboard objectives remove xp_metier
+scoreboard objectives remove lvl_metier
+scoreboard objectives remove metier
 
 
 

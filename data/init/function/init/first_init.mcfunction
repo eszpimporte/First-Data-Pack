@@ -21,6 +21,17 @@ scoreboard objectives add event dummy
 scoreboard players set #active event 0
 
 
+#Le scoreboard pr compter les points de fautes illégales
+scoreboard objectives add fautes_ban dummy
+
+
+#Le scoreboard pour compter l'xp et le niveau d'un joueur
+scoreboard objectives add lvl_metier dummy
+scoreboard objectives add xp_metier dummy
+scoreboard objectives add metier dummy
+function init:init/metier_constants_init
+
+
 
 #holder gère les valeurs temporaires (les holder) pour des fonctions, UN HOLDER S'UTILISE A LA SUITE DE SA DEFINITION, à chaque tick il faut s'imaginer qu'il est détruit
 scoreboard objectives add holder dummy
