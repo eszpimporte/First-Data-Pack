@@ -19,6 +19,7 @@ gamerule minecraft:tnt_explosion_drop_decay true
 gamerule minecraft:pvp false
 
 gamerule minecraft:universal_anger false
+gamerule minecraft:limited_crafting true
 difficulty normal
 worldborder set 20000
 

@@ -1,1 +1,1 @@
-execute in dp_admin:spawndim run tp @s 0 63 0
+execute in dp_admin:spawndim run tp @s 0 32 0

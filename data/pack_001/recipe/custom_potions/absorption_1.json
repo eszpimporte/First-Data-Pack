@@ -5,7 +5,8 @@
   "ingredients": [
     "minecraft:potion",
     "minecraft:golden_apple",
-    "minecraft:golden_apple"
+    "minecraft:golden_apple",
+    "minecraft:nether_wart"
   ],
   "result": {
     "id": "minecraft:potion",

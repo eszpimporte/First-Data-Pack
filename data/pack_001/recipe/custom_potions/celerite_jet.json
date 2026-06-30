@@ -6,7 +6,8 @@
     "minecraft:potion",
     "minecraft:redstone_block",
     "minecraft:prismarine",
-    "minecraft:gunpowder"
+    "minecraft:gunpowder",
+    "minecraft:nether_wart"
   ],
   "result": {
     "id": "minecraft:splash_potion",
