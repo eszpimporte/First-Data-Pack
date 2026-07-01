@@ -7,9 +7,7 @@
     "components": {
       "minecraft:item_name": "bijou lunaire",
       "minecraft:rarity": "rare",
-      "minecraft:entity_data": {
-        "id": "minecraft:cherry_boat"
-      }
+      "!minecraft:entity_data": {}
     }
   },
   "experience": 300,

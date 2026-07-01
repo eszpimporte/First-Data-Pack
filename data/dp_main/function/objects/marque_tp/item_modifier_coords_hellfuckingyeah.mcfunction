@@ -1,0 +1,2 @@
+$item modify entity @s weapon.mainhand {"function": "minecraft:set_custom_data","tag": {"coords": {"x": $(x),"y": $(y),"z": $(z)}}}
+$item modify entity @s weapon.mainhand {"function": "minecraft:set_lore","entity": "this","lore": [{"text": "Click droit pour se TP à X:$(x) Y:$(y) Z:$(z)","color": "green","italic": true}],"mode": "replace_all"}

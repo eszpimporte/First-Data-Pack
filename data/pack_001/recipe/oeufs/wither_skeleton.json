@@ -14,7 +14,7 @@
     "s": "minecraft:soul_sand"
   },
   "result": {
-    "id": "minecraft:creeper_spawn_egg",
+    "id": "minecraft:command_block",
     "components": {
       "minecraft:entity_data": {
         "id": "minecraft:wither_skeleton"

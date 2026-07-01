@@ -19,10 +19,7 @@
                     "color": "#156465"
                   }
                 ],
-                "minecraft:entity_data": {
-                  "id": "minecraft:bat",
-                  "Health": 0
-                }
+                "!minecraft:entity_data": {}
               }
             }
           ]

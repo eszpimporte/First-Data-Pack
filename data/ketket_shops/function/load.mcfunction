@@ -1,5 +1,3 @@
-tellraw @a ["","[",{"text":"Player Shops v4.2","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"Modrinth","underlined":true,"color":"white",click_event:{"action":"open_url","url":"https://modrinth.com/datapack/ketkets-player-shops"}}]
-
 scoreboard objectives add isPlaced minecraft.used:minecraft.player_head
 scoreboard objectives add ket.place trigger
 scoreboard objectives add ket.bool dummy

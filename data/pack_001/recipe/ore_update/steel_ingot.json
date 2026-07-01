@@ -20,19 +20,9 @@
   "result": {
     "id": "minecraft:iron_golem_spawn_egg",
     "components": {
-      "minecraft:custom_name": "steel ingot",
       "minecraft:item_name": "steel ingot",
       "minecraft:rarity": "common",
-      "minecraft:can_place_on": [
-        {
-          "blocks": "minecraft:barrier"
-        }
-      ],
-      "minecraft:entity_data": {
-        "id": "minecraft:bat",
-        "CustomName": "Tu as fais tomber un truc je crois ...",
-        "Health": 0
-      }
+      "!minecraft:entity_data": {}
     },
     "count": 1
   }

@@ -43,9 +43,9 @@ scoreboard players set #holder_x holder 0
 scoreboard players set #holder_y holder 0
 scoreboard players set #holder_z holder 0
 data modify storage dp:holder temp set value 0
-data modify storage dp:holder holder_1 set value 0
-data modify storage dp:holder holder_2 set value 0
-data modify storage dp:holder holder_3 set value 0
+data modify storage dp:holder holder_1 set value {x:0,y:0,z:0}
+data modify storage dp:holder holder_2 set value {}
+data modify storage dp:holder holder_3 set value {}
 #Il n'y a aucune différence entre les holders, ils sont juste là pour faire pacerelles.
 
 

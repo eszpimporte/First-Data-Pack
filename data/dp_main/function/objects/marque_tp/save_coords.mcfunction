@@ -1,6 +1,7 @@
-data modify entity @s SelectedItem.components.minecraft:custom_data.coords.x set from entity @s Pos[0]
-data modify entity @s SelectedItem.components.minecraft:custom_data.coords.y set from entity @s Pos[1]
-data modify entity @s SelectedItem.components.minecraft:custom_data.coords.z set from entity @s Pos[2]
 
-data modify entity @s SelectedItem.components.minecraft:lore set from entity @s SelectedItem.components.minecraft:custom_data.coords
-data modify entity @s SelectedItem.components.minecraft:lore append value ["clique droit pour vous tp à cette position"]
+data modify storage dp:holder holder_1.x set from entity @s Pos[0]
+data modify storage dp:holder holder_1.y set from entity @s Pos[1]
+data modify storage dp:holder holder_1.z set from entity @s Pos[2]
+
+function dp_main:objects/marque_tp/item_modifier_coords_hellfuckingyeah with storage dp:holder holder_1
+item modify entity @s weapon.mainhand {"function": "minecraft:set_custom_data","tag": {"state": 1}}

@@ -1,3 +1,6 @@
-data modify entity @s SelectedItem.components.minecraft:custom_data.state set value -1
+
+item modify entity @s weapon.mainhand {"function": "minecraft:set_custom_data","tag": {"state": 0}}
+
 function dp_main:objects/marque_tp/tp_to with entity @s SelectedItem.components.minecraft:custom_data.coords
-data modify entity @s SelectedItem.components.minecraft:lore set value ["Clique droit pour marquer votre position"]
+
+item modify entity @s weapon.mainhand {"function": "minecraft:set_lore","lore": [{"text": "Clique droit pour marquer votre position","color": "white"}],"mode": "replace_all"}

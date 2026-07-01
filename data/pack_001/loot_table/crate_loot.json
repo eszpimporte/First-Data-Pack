@@ -116,21 +116,6 @@
       ]
     },
     {
-      "rolls": 2,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "pack_001:textes",
-          "weight": 2,
-          "conditions": []
-        }
-      ]
-    },
-    {
       "rolls": 4,
       "entries": [
         {
