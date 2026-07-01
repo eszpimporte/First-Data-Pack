@@ -1,7 +1,7 @@
 {
   "display": {
-    "icon": "minecraft:nether_star",
-    "title": "Dans les étoiles",
+    "icon": {"id":"minecraft:nether_star"},
+    "title": "Tes yeux sont des étoiles",
     "description": "Fabriquez de la starite",
     "frame": "task"
   },

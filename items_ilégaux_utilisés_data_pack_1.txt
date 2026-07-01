@@ -1,19 +1,19 @@
 command_block : tout objet custom qui servent à rien
 
-chain_command_block : minerai d'enderite
-oeuf de skellette : roche des lunes
-oeuf de golem de fer : steel ingot
-oeuf de allay : proto-acier
-oeuf d'abeil : abyssal ingot
-oeuf de ghast : starite
-oeuf de shulker : enderite
-oeuf de wither-skellette : bijou lunaire
-oeuf de silver fish : ocean artefact
+chain_command_block : minerai d'enderite    $
+oeuf de skellette : roche des lunes         $?
+oeuf de golem de fer : steel ingot          $
+oeuf de allay : proto-acier                  $
+oeuf d'abeil : abyssal ingot               $
+oeuf de ghast : starite                      $
+oeuf de shulker : enderite                   $  
+oeuf de wither-skellette : bijou lunaire        $
+oeuf de silver fish : ocean artefact         $
 oeuf de sniffer : archeologie artefact
 oeuf de blaze : nether artefact
 oeuf de enderman : end artefact
 oeuf de phamtom : âme de mob
-oeuf de vache : noix de korogu
+oeuf de vache : noix de korogu                 $          
 oeuf de chat : poudre magique
 oeuf de chauve sourie : spawner scrap
 

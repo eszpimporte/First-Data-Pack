@@ -1,16 +1,4 @@
 {
-  "display": {
-    "icon": {
-      "id": "minecraft:skeleton_spawn_egg",
-      "components": {
-        "minecraft:enchantment_glint_override": true
-      }
-    },
-    "title": "La tête dans la lune",
-    "description": "Obtenez une roche des lunes, bonne chance pour la faire cuire :)",
-    "frame": "challenge"
-  },
-  "parent": "progression/craft_to_craft",
   "criteria": {
     "&": {
       "trigger": "minecraft:inventory_changed",
@@ -27,7 +15,6 @@
     }
   },
   "rewards": {
-    "experience": 10,
     "recipes": ["pack_001:ore_update/lunaire_blast","pack_001:ore_update/lunaire_smelt"]
   }
 }

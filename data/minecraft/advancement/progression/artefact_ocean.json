@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:fishing_rod",
+    "icon": {"id":"minecraft:fishing_rod"},
     "title": "Pêche à l'artefact",
     "description": "Pêchez un artefact LEGENDAIRE !!! (pêchez en un et on en reparle)",
     "frame": "challenge"

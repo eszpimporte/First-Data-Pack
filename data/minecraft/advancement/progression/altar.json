@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:command_block",
+    "icon": {"id":"minecraft:command_block"},
     "title": "L'altar des dimensions maudites !",
     "description": "Fabriquer cet objet sacré par les Dieux du NCI",
     "background": "minecraft:block/amethyst_block",

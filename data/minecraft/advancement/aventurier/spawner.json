@@ -1,19 +1,18 @@
 {
   "display": {
-    "icon": "minecraft:sniffer_spawn_egg",
-    "title": "Déterrer ... un truc de plus",
-    "description": "Faites de l'archéologie pour déterrer un artefact !",
-    "background": "minecraft:block/dirt",
+    "icon": {"id":"minecraft:spawner"},
+    "title": "EEEE on avait pas interdit le créa ?",
+    "description": "Faites l'acquisition d'un spawner",
+    "background": "minecraft:block/iron_bars",
     "frame": "task"
   },
-  "parent": "progression/sniffer_egg",
   "criteria": {
     "&": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:sniffer_spawn_egg",
+            "items": "minecraft:spawner",
             "count": {
               "min": 1
             }

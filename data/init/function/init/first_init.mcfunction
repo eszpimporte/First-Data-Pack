@@ -48,6 +48,8 @@ data modify storage dp:holder holder_2 set value {}
 data modify storage dp:holder holder_3 set value {}
 #Il n'y a aucune différence entre les holders, ils sont juste là pour faire pacerelles.
 
+scoreboard objectives add spawn trigger
+
 
 function init:init/set_parametters
 

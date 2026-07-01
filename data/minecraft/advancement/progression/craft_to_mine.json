@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:iron_pickaxe",
+    "icon": {"id":"minecraft:iron_pickaxe"},
     "title": "Craft pour miner",
     "description": "Craft une pioche, ce n'est que le début du minage."
   },
@@ -62,7 +62,6 @@
   ],
   "rewards": {
     "recipes": [
-      "pack_001:easier_life/iron_trash",
       "pack_001:easier_life/eau_stackable",
       "pack_001:easier_life/dupli_cornflower",
       "pack_001:easier_life/lava_stackable",

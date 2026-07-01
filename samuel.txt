@@ -1,13 +1,21 @@
+A VERIF :
+
+
+trigger spawn
+marque tp
+structures des joueurs
+firts init de player qui spawn pr la premuère fois
+système de ban auto et protection du spawn
+
+
 
 /data modify entity @e[type=item,limit=1,sort=nearest] Item.components."minecraft:written_book_content".author set value "New Name"
 
 TO DO :
 
-boucler la zone du spawn (murs)  -> pr Matis
-entrée dans le spawn qui met en aventure
-firts init de player qui spawn pr la premuère fois
-l'affichage des pseudos avec un statu ?
-système qui empêche de se frapper dn le spawn sinn conséquences
+
+
+
 chemins vers l' "overworld" depuis le spawn
 probas d'attérir dans la dimension ténébreuse lorsqu'on meurt
 gravestone
@@ -26,9 +34,9 @@ nouveaux échanges avec les villageois
 faire le lore (réservé à ce fou de Samuel)
 faire des musiques de boss, chelous pour l'ambiance dn les dimensions
 
-système de température
 
-faire le ressource pack
+
+
 
 
 

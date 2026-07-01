@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:golden_carrot",
+    "icon": {"id":"minecraft:golden_carrot"},
     "title": "Yahaha you found me !",
     "description": "Oui ... c'est bien ce que vous pensez",
     "frame": "challenge"

@@ -1,11 +1,11 @@
 {
   "display": {
-    "icon": "minecraft:bundle",
+    "icon": {"id":"minecraft:bundle"},
     "title": "C'est pas TCL ici",
     "description": "Fabriquer un backpack pour votre plus grand confort",
     "frame": "task"
   },
-  "parent": "progression/metalbis",
+  "parent": "progression/metal",
   "criteria": {
     "&": {
       "trigger": "minecraft:recipe_crafted",

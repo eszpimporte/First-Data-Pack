@@ -1,5 +1,6 @@
 {
     "values": [
-    "ketket_shops:tick"
+    "ketket_shops:tick",
+    "init:loop/tick"
  ]
 }

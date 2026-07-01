@@ -20,6 +20,8 @@ scoreboard objectives remove server_death
 scoreboard objectives remove xp_metier
 scoreboard objectives remove lvl_metier
 scoreboard objectives remove metier
+scoreboard objectives remove spawn
+
 
 
 

@@ -1,8 +1,8 @@
 #valeurs de chaque métier
 scoreboard players add #sans_metier metier 0
 scoreboard players add #forgeron metier 1
-scoreboard players add #mage metier 2
-scoreboard players add #explorateur metier 3
+scoreboard players add #sorcier metier 2
+scoreboard players add #aventurier metier 3
 
 
 #valeurs d'xp nécessaire pr chaque niveau

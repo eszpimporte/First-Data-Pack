@@ -16,8 +16,8 @@
     "id": "minecraft:goat_horn",
     "components": {
       "minecraft:item_name": "Boussole déchireuse d'espace-temps",
-      "minecraft:enchantment_glint_override": true,
-      "minecraft:item_model": "minecraft:compass",
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:item_model": "minecraft:compass_marque_tp",
       "minecraft:rarity": "uncommon",
       "minecraft:custom_data": {
         "state": 0,
