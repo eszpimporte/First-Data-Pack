@@ -1,6 +1,7 @@
 {
     "values": [
     "ketket_shops:tick",
-    "init:loop/tick"
+    "init:loop/tick",
+    "dp_admin:death_and_dark/tick_function_des_enfers"
  ]
 }

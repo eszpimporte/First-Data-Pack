@@ -2,10 +2,12 @@ A VERIF :
 
 
 trigger spawn
-marque tp
+
 structures des joueurs
 firts init de player qui spawn pr la premuère fois
 système de ban auto et protection du spawn
+probas d'attérir dans la dimension ténébreuse lorsqu'on meurt (verif la détection ... la dim n'est pas encore faite)
+système de choix de métier au spawn
 
 
 
@@ -14,12 +16,13 @@ système de ban auto et protection du spawn
 TO DO :
 
 
-
+rajouter un item argent (stack = 256 ?)
 
 chemins vers l' "overworld" depuis le spawn
-probas d'attérir dans la dimension ténébreuse lorsqu'on meurt
+
 gravestone
-système de choix de métier au spawn
+
+
 arbre d'améliorations (advancements déguisés)
 
 
@@ -47,23 +50,23 @@ ressources intermédiaires ajoutée :
 - manche (avec du cuir pour faire des armes et outils)
 - couvre-corps (avec du cuir pour les armures)
 - hachettes, pioches mineures, coupe-herbe, marteau
-- instrument en bois
-- engrenage
-- moule
-- pièce renforcée et movible
 - tissu
+
 - acier
 - protosteel
 - abissal ingot
 - starite
 - enderite
 - bijoux lunaires
+
 - féérite
 - pierre de mana
+
 - artéfacts
-- écusson
+
 - poudre magique
 - korogu
+- âme de mob
 
 
 
@@ -82,7 +85,7 @@ bouf :
 toujours les altars des dimensions maudites lol
 
 objets :
-- objet de tp (en cours Samuel)
+- objet de tp (en cours Samuel)$
 - désanchantement (merci Matis)
 - loot box basique ?
 - idée de craft (du genre ça give un craft parmi une lise de chelous)
@@ -95,7 +98,7 @@ objets :
 - effets de popo chelous ou gros
 - healer (baton de heal)
 - gros bucket (d'eau de lave ...)
-- talisman anti-chaleur extrême (idem avec le froid)
+
 - bottes des septs lieus, bottes de sonic
 - objet de fly
 - élytre renforcées

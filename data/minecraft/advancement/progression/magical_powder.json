@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:glowstone_dust",
+    "icon": {"id": "minecraft:glowstone_dust"},
     "title": "T'es pas net Baptiste",
     "description": "Obtenez de la poudre ... très BONNE !",
     "frame": "task"
@@ -23,8 +23,7 @@
   },
   "rewards": {
     "recipes": [
-      "minecraft:ender_eye",
-      "pack_001:new_adventure/altar"
+      "minecraft:ender_eye"
     ],
     "experience": 20
   }

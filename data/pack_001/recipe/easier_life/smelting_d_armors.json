@@ -6,7 +6,6 @@
     "minecraft:diamond_nautilus_armor"
   ],
   "result": {
-    "id": "minecraft:diamond",
-    "count": 6
+    "id": "minecraft:diamond"
   }
 }
