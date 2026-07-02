@@ -8,6 +8,7 @@ firts init de player qui spawn pr la premuère fois
 système de ban auto et protection du spawn
 probas d'attérir dans la dimension ténébreuse lorsqu'on meurt (verif la détection ... la dim n'est pas encore faite)
 système de choix de métier au spawn
+graves
 
 
 
@@ -19,8 +20,6 @@ TO DO :
 rajouter un item argent (stack = 256 ?)
 
 chemins vers l' "overworld" depuis le spawn
-
-gravestone
 
 
 arbre d'améliorations (advancements déguisés)
