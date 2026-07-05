@@ -9,11 +9,17 @@
           "name": "minecraft:zombie_spawn_egg",
           "conditions": [
             {
-              "condition": "minecraft:match_tool",
+              "condition": "minecraft:entity_properties",
+              "entity": "attacking_player",
               "predicate": {
-                "components": {
-                  "minecraft:custom_data": {
-                    "capturing": true
+                "equipment": {
+                  "mainhand": {
+                    "items": "minecraft:diamond_sword",
+                    "components": {
+                      "minecraft:custom_data": {
+                        "capturing": true
+                      }
+                    }
                   }
                 }
               }
