@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": "Le moins pire forgeron",
+    "description": "Devenez forgeron",
+    "background": "minecraft:block/mossy_cobblestone"
+  },
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

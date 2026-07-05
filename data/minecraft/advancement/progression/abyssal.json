@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:prismarine_shard",
+    "icon": {"id":"minecraft:prismarine_shard"},
     "title": "au plus profond des crafts",
     "description": "Fabriquez un abyssal ingot"
   },

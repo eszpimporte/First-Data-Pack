@@ -3,7 +3,7 @@
 #elles seront reload UNE FOIS au prochain reload, les lignes ici doivent avoir été insérées par la même occasion dans first_init à leur place voulue
 
 
-
+scoreboard players set #temps_dechiré server 0
 
 
 

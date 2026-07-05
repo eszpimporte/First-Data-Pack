@@ -16,9 +16,13 @@ gamerule minecraft:respawn_radius 0
 gamerule minecraft:spawn_phantoms true
 gamerule minecraft:tnt_explosion_drop_decay true
 #faire un truc avec une fonction ptêtre
-gamerule minecraft:pvp false
+gamerule minecraft:pvp true
 
 gamerule minecraft:universal_anger false
+gamerule minecraft:limited_crafting true
+gamerule immediate_respawn true
+
+
 difficulty normal
 worldborder set 20000
 

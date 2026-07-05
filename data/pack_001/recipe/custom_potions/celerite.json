@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "show_notification": true,
   "category": "misc",
   "ingredients": [
     "minecraft:potion",
     "minecraft:redstone_block",
-    "minecraft:prismarine"
+    "minecraft:prismarine",
+    "minecraft:nether_wart"
   ],
   "result": {
     "id": "minecraft:potion",

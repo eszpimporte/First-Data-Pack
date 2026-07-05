@@ -21,6 +21,17 @@ scoreboard objectives add event dummy
 scoreboard players set #active event 0
 
 
+#Le scoreboard pr compter les points de fautes illégales
+scoreboard objectives add fautes_ban dummy
+
+
+#Le scoreboard pour compter l'xp et le niveau d'un joueur
+scoreboard objectives add lvl_metier dummy
+scoreboard objectives add xp_metier dummy
+scoreboard objectives add metier dummy
+function init:init/metier_constants_init
+
+
 
 #holder gère les valeurs temporaires (les holder) pour des fonctions, UN HOLDER S'UTILISE A LA SUITE DE SA DEFINITION, à chaque tick il faut s'imaginer qu'il est détruit
 scoreboard objectives add holder dummy
@@ -32,10 +43,12 @@ scoreboard players set #holder_x holder 0
 scoreboard players set #holder_y holder 0
 scoreboard players set #holder_z holder 0
 data modify storage dp:holder temp set value 0
-data modify storage dp:holder holder_1 set value 0
-data modify storage dp:holder holder_2 set value 0
-data modify storage dp:holder holder_3 set value 0
+data modify storage dp:holder holder_1 set value {x:0,y:0,z:0}
+data modify storage dp:holder holder_2 set value {}
+data modify storage dp:holder holder_3 set value {}
 #Il n'y a aucune différence entre les holders, ils sont juste là pour faire pacerelles.
+
+scoreboard objectives add spawn trigger
 
 
 function init:init/set_parametters

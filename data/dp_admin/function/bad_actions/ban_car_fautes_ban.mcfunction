@@ -1,0 +1,2 @@
+ban @s "Le serv vous a automatiquement banni car vous avez enfreint une ou des règles trop de fois ! -> fautes_ban"
+tellraw @a {"text":"[DataPack & esz] Un joueur a enfreint les règles du server : il a donc été banni !", "color":'#b85959'}

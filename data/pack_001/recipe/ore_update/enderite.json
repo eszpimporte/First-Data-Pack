@@ -24,15 +24,11 @@
   "result": {
     "id": "minecraft:shulker_spawn_egg",
     "components": {
-      "minecraft:custom_name": "enderite",
+      "minecraft:item_name": "enderite",
       "minecraft:rarity": "rare",
       "minecraft:lore": [
         "Un minerai provenant d'un monde lointain ... ses pouvoirs sont convoités"
       ],
-      "minecraft:entity_data": {
-        "id": "minecraft:bat",
-        "CustomName": "Tu as fais tomber un truc je crois ...",
-        "Health": 0
-    }
+      "!minecraft:entity_data": {}
   }
 }}

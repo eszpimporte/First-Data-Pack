@@ -1,11 +1,11 @@
 {
   "display": {
-    "icon": "minecraft:wither_skeleton_skull",
-    "title": "Renvoyer un démon chez les morts",
+    "icon": {"id":"minecraft:wither_skeleton_skull"},
+    "title": "Frankestein mais dans la mauvaise timeline",
     "description": "Tuer un wither",
     "frame": "task"
   },
-  "parent": "progression/metalbis",
+  "parent": "progression/metal",
   "criteria": {
     "&": {
       "trigger": "minecraft:player_killed_entity",

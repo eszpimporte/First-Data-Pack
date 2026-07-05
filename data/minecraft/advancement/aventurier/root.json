@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_sword"
+    },
+    "title": "Partons à l'aventure !!!",
+    "description": "Devenez aventurier",
+    "background": "minecraft:block/mangrove_leaves"
+  },
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

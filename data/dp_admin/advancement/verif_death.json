@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "location": {}
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "dp_admin:death_and_dark/death_by_entity"
+  }
+}

@@ -1,21 +1,15 @@
 {
   "display": {
-    "icon": "minecraft:rooted_dirt",
+    "icon": {"id":"minecraft:rooted_dirt"},
     "title": "Adventure",
     "description": "C'est ici que tout commence",
+    "background": "block/end_stone",
     "show_toast": false,
     "announce_to_chat": false
   },
   "criteria": {
-    "a": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "location": {
-            "dimension": "minecraft:overworld"
-          }
-        }
-      }
+    "&": {
+      "trigger": "minecraft:impossible"
     }
   }
 }

@@ -5,7 +5,8 @@
     "minecraft:potion",
     "minecraft:poisonous_potato",
     "minecraft:fermented_spider_eye",
-    "minecraft:gunpowder"
+    "minecraft:gunpowder",
+    "minecraft:nether_wart"
   ],
   "result": {
     "id": "minecraft:splash_potion",

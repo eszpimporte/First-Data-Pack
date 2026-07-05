@@ -1,10 +1,10 @@
 {
   "display": {
-    "icon": "minecraft:iron_ingot",
+    "icon": {"id":"minecraft:iron_golem_spawn_egg"},
     "title": "METAL",
     "description": "Fabriquez un lingot d'acier"
   },
-  "parent": "minecraft:progression/mine_to_craft",
+  "parent": "minecraft:progression/craft_to_mine",
   "criteria": {
     "&": {
       "trigger": "minecraft:recipe_crafted",
@@ -16,7 +16,8 @@
   "rewards": {
     "recipes": [
       "pack_001:ore_update/protosteel",
-      "pack_001:outils_customs/bouclier_obsi"
+      "pack_001:outils_customs/bouclier_obsi",
+      "backpacks:backpack"
     ],
     "experience": 5
   }

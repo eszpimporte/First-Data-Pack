@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "location": {
+            "dimension": "dp_admin:spawndim"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "r"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "display": {
-    "icon": "minecraft:crafting_table",
+    "icon": {"id":"minecraft:crafting_table"},
     "title": "Craft pour encore plus craft",
     "description": "Faire une table de craft"
   },

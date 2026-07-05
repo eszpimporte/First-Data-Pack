@@ -1,5 +1,7 @@
 {
-    "values":[
-        "init:init/reload"
-    ]
+    "values": [
+    "ketket_shops:load",
+    "init:init/reload",
+    "hygrave:internal/load"
+]
 }

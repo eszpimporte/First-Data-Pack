@@ -5,7 +5,8 @@
     "minecraft:potion",
     "minecraft:poisonous_potato",
     "minecraft:fermented_spider_eye",
-    "minecraft:spider_eye"
+    "minecraft:spider_eye",
+    "minecraft:nether_wart"
   ],
   "result": {
     "id": "minecraft:potion",
