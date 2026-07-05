@@ -1,5 +1,5 @@
 {
-  "type": "type",
+  "type": "dp_main:overworld",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {

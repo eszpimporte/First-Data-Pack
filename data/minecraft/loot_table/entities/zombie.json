@@ -15,8 +15,7 @@
                   "minecraft:custom_data": {
                     "capturing": true
                   }
-                },
-                "predicates": {}
+                }
               }
             }
           ]
