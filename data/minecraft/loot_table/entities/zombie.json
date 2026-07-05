@@ -12,7 +12,9 @@
               "condition": "minecraft:match_tool",
               "predicate": {
                 "components": {
-                  "minecraft:damage_type": "capturing_sword:capturing"
+                  "minecraft:custom_data": {
+                    "capturing": true
+                  }
                 },
                 "predicates": {}
               }

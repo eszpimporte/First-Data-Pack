@@ -14,12 +14,12 @@
     ]
   },
   "result": {
-    "id": "minecraft:silverfish_spawn_egg",
+    "id": "minecraft:diamond_sword",
     "components": {
-      "minecraft:damage_type": "capturing_sword:capturing",
-      "minecraft:item_name": "Capturing Sword",
-      "!minecraft:entity_data": {},
-      "minecraft:item_model": "minecraft:diamond_sword"
+      "minecraft:custom_data": {
+        "capturing": true
+      },
+      "minecraft:item_name": "Capturing Sword"
     },
     "count": 1
   }
