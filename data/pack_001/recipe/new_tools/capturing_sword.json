@@ -16,10 +16,10 @@
   "result": {
     "id": "minecraft:diamond_sword",
     "components": {
+      "minecraft:item_name": "Capturing Sword",
       "minecraft:custom_data": {
         "capturing": true
-      },
-      "minecraft:item_name": "Capturing Sword"
+      }
     },
     "count": 1
   }
