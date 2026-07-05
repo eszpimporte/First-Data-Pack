@@ -1,11 +1,12 @@
 {
-  "type": "dp_main:overworld",
+  "type": "overworld",
   "generator": {
-    "type": "minecraft:noise",
-    "biome_source": {
-      "type": "minecraft:multi_noise",
-      "preset": "r"
-    },
-    "settings": "s"
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "layers": []
+    }
   }
 }
