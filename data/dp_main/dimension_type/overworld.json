@@ -32,7 +32,7 @@
     "minecraft:gameplay/nether_portal_spawns_piglin": true,
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:visual/cloud_color": "#ccffffff",
-    "minecraft:visual/cloud_height": 192,
+    "minecraft:visual/cloud_height": 256,
     "minecraft:visual/fog_color": "#779baf",
     "minecraft:visual/sky_color": "#78a7ff",
     "minecraft:gameplay/can_pillager_patrol_spawn": true
@@ -40,10 +40,10 @@
   "coordinate_scale": 1,
   "has_ceiling": false,
   "has_skylight": true,
-  "height": 320,
+  "height": 256,
   "infiniburn": "#minecraft:infiniburn_overworld",
-  "logical_height": 320,
-  "min_y": -64,
+  "logical_height": 256,
+  "min_y": 0,
   "monster_spawn_block_light_limit": 0,
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",

@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {"id":"minecraft:crafting_table"},
+    "title": "Craft pour craft",
+    "description": "Craft une table de craft"
+  },
+  "parent": "dp_main:display/progression/root",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:crafting_table"
+      }
+    }
+  }
+}

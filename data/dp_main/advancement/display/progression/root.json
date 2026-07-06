@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {"id":"minecraft:rooted_dirt"},
+    "title": "Adventure",
+    "description": "C'est ici que tout commence",
+    "background": "minecraft:block/red_wool",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

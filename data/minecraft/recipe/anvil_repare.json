@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:iron_golem_spawn_egg",
+    [
+      "minecraft:chipped_anvil",
+      "minecraft:damaged_anvil"
+    ]
+  ],
+  "result": {
+    "id": "minecraft:anvil"
+  }
+}

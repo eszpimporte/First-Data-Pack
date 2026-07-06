@@ -1,4 +1,4 @@
-advancement grant @s only sorcier/root
+advancement grant @s only dp_main:display/sorcier/root
 scoreboard players set @s metier 2
 scoreboard players set @s lvl_metier 1
 scoreboard players set @s xp_metier 0

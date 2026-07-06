@@ -11,3 +11,6 @@ function hygrave:internal/backup/generate
 
 ## Generate grave
 function hygrave:internal/grave/generate
+
+#Envoyer l'info à dp:main pour qu'on puisse vérif des achivments
+function dp_admin:death_and_dark/death_by_entity

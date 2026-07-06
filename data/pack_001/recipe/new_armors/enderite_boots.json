@@ -1,6 +1,5 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "show_notification": true,
   "category": "equipment",
   "ingredients": [
     "minecraft:diamond_boots",

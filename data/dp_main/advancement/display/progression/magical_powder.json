@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:glowstone_dust"},
+    "title": "T'es pas net Baptiste",
+    "description": "Obtenez de la poudre ... très BONNE !",
+    "frame": "task"
+  },
+  "parent": "dp_main:display/progression/craft_to_craft",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cat_spawn_egg",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "minecraft:ender_eye"
+    ],
+    "experience": 20
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:smithing_transform",
-  "base": "#minecraft:dirt",
-  "template": "minecraft:evoker_spawn_egg",
-  "result": {
-    "id": "minecraft:iron_ingot"
-  }
-}

@@ -3,8 +3,8 @@
   "category": "equipment",
   "key": {
     "b": "minecraft:bow",
-    "f": "minecraft:feather",
-    "d": "minecraft:diamond"
+    "d": "minecraft:feather",
+    "f": "minecraft:diamond"
   },
   "pattern": [
     " fd",

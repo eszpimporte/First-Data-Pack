@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "p@p",
+    " #",
+    "#&#"
+  ],
+  "key": {
+    "&": "minecraft:iron_block",
+    "#": "minecraft:iron_ingot",
+    "@": "minecraft:iron_golem_spawn_egg",
+    "p": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "minecraft:anvil"
+  }
+}

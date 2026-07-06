@@ -3,8 +3,8 @@
   "show_notification": true,
   "category": "equipment",
   "pattern": [
-    "fff",
-    " a ",
+    "faf",
+    " b ",
     " b "
   ],
   "key": {

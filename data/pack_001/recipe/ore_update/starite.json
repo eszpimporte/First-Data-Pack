@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "obo",
+    "obc",
     "ntn",
     "cbo"
   ],

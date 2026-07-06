@@ -3,9 +3,9 @@
   "show_notification": true,
   "category": "equipment",
   "pattern": [
-    "rws",
-    "fff",
-    "ggg"
+    "www",
+    "fgf",
+    "sss"
   ],
   "key": {
     "f": [
@@ -16,9 +16,6 @@
     ],
     "w": [
       "minecraft:glowstone_dust"
-    ],
-    "r": [
-      "minecraft:gunpowder"
     ],
     "s": [
       "minecraft:redstone"

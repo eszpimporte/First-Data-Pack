@@ -13,13 +13,14 @@
     "g": "minecraft:rabbit_foot"
   },
   "result": {
-    "id": "minecraft:stick",
+    "id": "minecraft:wooden_axe",
     "components": {
       "minecraft:enchantments": {
         "minecraft:knockback": 15
       },
       "minecraft:rarity":"uncommon",
-      "minecraft:item_name": "knockback stick"
+      "minecraft:item_name": "knockback stick",
+      "item_model": "stick"
     }
   }
 }

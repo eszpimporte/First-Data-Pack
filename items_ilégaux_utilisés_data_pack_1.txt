@@ -17,3 +17,7 @@ oeuf de vache : noix de korogu              $
 oeuf de chat : poudre magique
 oeuf de chauve sourie : spawner scrap
 
+oeuf de mouton : tissu
+oeuf de ocelot : fibres
+oeuf de zombie : manche
+oeuf de vilageois : surcot en cuir

@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredient": "minecraft:tnt",
   "result": {
-    "id": "minecraft:creeper_spawn_egg",
+    "id": "minecraft:clock",
     "components": {
       "minecraft:entity_data": {
         "id": "minecraft:tnt",
@@ -13,7 +13,9 @@
         "Glowing": true,
         "fuse": 100,
         "explosion_power": 7
-      }
+      },
+      "item_name": "C4",
+      "item_model": "tnt"
     }
   },
   "cookingtime": 400

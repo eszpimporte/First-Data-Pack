@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {"id": "minecraft:wither_skeleton_spawn_egg"},
+    "title": "Vraiment lunaire",
+    "description": "Vous avez attendu longtemps pour ça",
+    "frame": "challenge"
+  },
+  "parent": "dp_main:display/progression/craft_to_craft",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_spawn_egg",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": []
+  }
+}

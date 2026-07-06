@@ -1,0 +1,11 @@
+{
+  "type": "dp_main:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "dp_main:overworld",
+    "biome_source": {
+      "type": "fixed",
+      "biome":"dp_main:first_plain"
+    }
+  }
+}

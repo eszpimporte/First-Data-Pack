@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {"id":"minecraft:golden_carrot"},
+    "title": "Yahaha you found me !",
+    "description": "Oui ... c'est bien ce que vous pensez",
+    "frame": "challenge"
+  },
+  "parent": "dp_main:display/progression/root",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cow_spawn_egg",
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [],
+    "experience": 20
+  }
+}

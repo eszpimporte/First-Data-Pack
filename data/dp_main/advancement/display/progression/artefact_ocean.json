@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {"id":"minecraft:fishing_rod"},
+    "title": "Pêche à l'artefact",
+    "description": "Pêchez un artefact LEGENDAIRE !!! (pêchez en un et on en reparle)",
+    "frame": "challenge"
+  },
+  "parent": "dp_main:display/progression/craft_to_craft",
+  "criteria": {
+    "&": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "item": {
+          "items": "minecraft:silverfish_spawn_egg",
+          "count": {
+            "min": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "pack_001:ore_update/abyssal_ingot"
+    ],
+    "experience": 50
+  }
+}

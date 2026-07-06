@@ -12,7 +12,6 @@ graves
 
 
 
-/data modify entity @e[type=item,limit=1,sort=nearest] Item.components."minecraft:written_book_content".author set value "New Name"
 
 TO DO :
 
@@ -29,7 +28,7 @@ arbre d'améliorations (advancements déguisés)
 faire la dimension de l' "overworld", limiter la survie de base là-bas, reset toutes les loot table
 faire les nouvelles structures (ou utiliser les anciennes comme les villages)
 limiter les biomes de con de l overworld de base mais rendre ceux existant plus fantaisistes ou denses
-mobs basiques faibles qui spawn mais avec du custom (slime chevauché par un zombi par exemple)
+bats = mobs basiques faibles qui spawn mais avec du custom (slime chevauché par un zombi par exemple)
 nouveaux échanges avec les villageois
 
 
@@ -48,24 +47,25 @@ faire des musiques de boss, chelous pour l'ambiance dn les dimensions
 ressources intermédiaires ajoutée :
 - manche (avec du cuir pour faire des armes et outils)
 - couvre-corps (avec du cuir pour les armures)
-- hachettes, pioches mineures, coupe-herbe, marteau
+- hachettes, piochette, couteau (outils en bois déguisés)
 - tissu
+- fibres
 
-- acier
-- protosteel
-- abissal ingot
-- starite
-- enderite
+- acier               $
+- protosteel          $
+- abissal ingot       $
+- starite             $
+- enderite            $
 - bijoux lunaires
 
 - féérite
 - pierre de mana
 
-- artéfacts
+- artéfacts           ~$
 
-- poudre magique
+- poudre magique      
 - korogu
-- âme de mob
+
 
 
 
@@ -73,10 +73,7 @@ ressources intermédiaires ajoutée :
 
 
 bouf :
-- omelettes
 - fromage
-- raisins
-- vins
 - poudre pas net 
 
 
@@ -85,7 +82,7 @@ toujours les altars des dimensions maudites lol
 
 objets :
 - objet de tp (en cours Samuel)$
-- désanchantement (merci Matis)
+- désanchantement (merci Matis)$
 - loot box basique ?
 - idée de craft (du genre ça give un craft parmi une lise de chelous)
 - table d'enchantement plus dur à avoir
@@ -114,9 +111,8 @@ objets :
 - générateurs de monstres
 - usines de ressources
 - villageois craftables "robots"
-- double saut ?
 - mineur rapide (on casse tout d'un coup), pète sous nos pieds
-- super boufs
+- super boufs, bouf illimitée
 - écarte mobs 
 - aimant à items
 - houx qui plante automatiquement
@@ -133,7 +129,6 @@ objets :
 - boule de feu 
 - grab-entity (ultra chaud mais fun)
 - totems of undying
-- balise (voir auto-balise)
 - invo archers qui ciblent une entity
 - attaque des invocateurs avec les croquos
 - foudroyant !
