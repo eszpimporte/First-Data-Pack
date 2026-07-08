@@ -1,1 +1,29 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "&": "minecraft:zombie_spawn_egg",
+    "F": "minecraft:sheep_spawn_egg",
+    "#": "minecraft:flint"
+  },
+  "pattern": [
+    "F#",
+    "&"
+  ],
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:block_break_speed",
+          "id": "minecraft:p",
+          "amount": 0.25,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:max_damage": 25,
+      "minecraft:item_name": "piquet"
+    },
+    "count": 1,
+    "id": "minecraft:wooden_pickaxe"
+  }
+}

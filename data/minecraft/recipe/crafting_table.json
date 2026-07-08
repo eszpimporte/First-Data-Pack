@@ -1,1 +1,14 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "leather",
+    "minecraft:iron_ingot",
+    "#minecraft:planks",
+    "minecraft:brick"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:crafting_table"
+  }
+}

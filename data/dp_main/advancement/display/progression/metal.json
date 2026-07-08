@@ -17,7 +17,9 @@
     "recipes": [
       "pack_001:ore_update/protosteel",
       "pack_001:outils_customs/bouclier_obsi",
-      "backpacks:backpack"
+      "backpacks:backpack",
+      "minecraft:anvil_repair",
+      "minecraft:anvil"
     ],
     "experience": 5
   }

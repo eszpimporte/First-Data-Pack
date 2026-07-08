@@ -1,1 +1,10 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "iron_ingot"
+  ],
+  "result": {
+    "id": "minecraft:iron_nugget",
+    "count": 4
+  }
+}

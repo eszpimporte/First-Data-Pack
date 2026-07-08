@@ -1,1 +1,9 @@
-{"type":" "}
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:raw_iron",
+  "result": {
+    "id": "minecraft:iron_nugget"
+  },
+  "cookingtime": 240
+}

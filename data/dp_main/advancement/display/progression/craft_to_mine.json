@@ -2,7 +2,7 @@
   "display": {
     "icon": {"id":"minecraft:iron_pickaxe"},
     "title": "Craft pour miner",
-    "description": "Craft une pioche, ce n'est que le début du minage."
+    "description": "Craft une pioche, ce n'est que le début du vrai minage."
   },
   "parent": "dp_main:display/progression/craft_to_craft",
   "criteria": {
@@ -35,18 +35,6 @@
       "conditions": {
         "recipe_id": "minecraft:netherite_pickaxe_smithing"
       }
-    },
-    "y": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:stone_pickaxe"
-      }
-    },
-    "u": {
-      "trigger": "minecraft:recipe_crafted",
-      "conditions": {
-        "recipe_id": "minecraft:wooden_pickaxe"
-      }
     }
   },
   "requirements": [
@@ -55,9 +43,7 @@
       "a",
       "z",
       "t",
-      "r",
-      "y",
-      "u"
+      "r"
     ]
   ],
   "rewards": {

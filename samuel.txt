@@ -45,10 +45,9 @@ faire des musiques de boss, chelous pour l'ambiance dn les dimensions
 
 
 ressources intermédiaires ajoutée :
-- manche (avec du cuir pour faire des armes et outils)
-- couvre-corps (avec du cuir pour les armures)
-- hachettes, piochette, couteau (outils en bois déguisés)
-- tissu
+- manche (avec du cuir pour faire des armes et outils)   £
+- couvre-corps (avec du cuir pour les armures)           
+- hachettes, piochette, couteau (outils en bois déguisés)£
 - fibres
 
 - acier               $

@@ -1,1 +1,36 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:stick",
+    "P": "minecraft:cobblestone",
+    "F": "minecraft:sheep_spawn_egg"
+  },
+  "pattern": [
+    "FP",
+    "S"
+  ],
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:s",
+          "amount": 5,
+          "operation": "add_value",
+          "slot": "mainhand"
+        },
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "minecraft:s",
+          "amount": -1,
+          "operation": "add_value",
+          "slot": "hand"
+        }
+      ],
+      "item_name": "stone knife"
+    },
+    "count": 1,
+    "id": "minecraft:stone_sword"
+  }
+}

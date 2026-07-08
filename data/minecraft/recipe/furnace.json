@@ -1,1 +1,17 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "&&&",
+    "&#&",
+    "&&&"
+  ],
+  "key": {
+    "&": "minecraft:cobblestone",
+    "#": "minecraft:brick"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:furnace"
+  }
+}

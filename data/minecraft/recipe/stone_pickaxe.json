@@ -1,1 +1,29 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "&": "minecraft:zombie_spawn_egg",
+    "F": "minecraft:sheep_spawn_egg",
+    "#": "minecraft:cobblestone"
+  },
+  "pattern": [
+    "F#",
+    "&"
+  ],
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:block_break_speed",
+          "id": "minecraft:p",
+          "amount": 1,
+          "operation": "add_value"
+        }
+      ],
+      "minecraft:max_damage": 65,
+      "minecraft:item_name": "Serfouette en pierre"
+    },
+    "count": 1,
+    "id": "minecraft:stone_pickaxe"
+  }
+}

@@ -8,7 +8,6 @@
     },
     "title": "HECATOMBE",
     "description": "Mourir 202 fois !",
-    "background": "minecraft:block/gold_block",
     "frame": "challenge",
     "hidden": true
   },

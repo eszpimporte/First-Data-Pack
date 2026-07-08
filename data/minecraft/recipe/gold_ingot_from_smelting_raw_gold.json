@@ -1,1 +1,9 @@
-{"type":" "}
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:raw_gold",
+  "result": {
+    "id": "minecraft:gold_nugget"
+  },
+  "cookingtime": 240
+}

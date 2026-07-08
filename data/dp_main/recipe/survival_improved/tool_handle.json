@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": "minecraft:stick",
+    "&": "minecraft:leather"
+  },
+  "pattern": [
+    "&S",
+    "S"
+  ],
+  "result": {
+    "components": {
+      "!minecraft:entity_data": {},
+      "minecraft:item_name": "Tool handle"
+    },
+    "count": 1,
+    "id": "minecraft:zombie_spawn_egg"
+  }
+}

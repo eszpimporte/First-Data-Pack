@@ -1,1 +1,37 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "stick",
+    "minecraft:flint",
+    "minecraft:sheep_spawn_egg"
+  ],
+  "result": {
+    "id": "minecraft:wooden_axe",
+    "components": {
+      "minecraft:item_name": "hachette",
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:attack_speed",
+          "id": "minecraft:a",
+          "amount": -0.2,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:a",
+          "amount": 4,
+          "operation": "add_value",
+          "slot": "mainhand",
+          "display": {
+            "type": "hidden"
+          }
+        }
+      ],
+      "minecraft:max_damage": 30
+    }
+  }
+}

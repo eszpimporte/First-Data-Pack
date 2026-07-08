@@ -15,28 +15,28 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:",
+          "id": "minecraft:b",
           "amount": 4,
           "operation": "add_value",
           "slot": "feet"
         },
         {
           "type": "minecraft:armor_toughness",
-          "id": "minecraft:",
+          "id": "minecraft:b",
           "amount": 4,
           "operation": "add_value",
           "slot": "feet"
         },
         {
           "type": "minecraft:knockback_resistance",
-          "id": "minecraft:",
+          "id": "minecraft:b",
           "amount": 0.1,
           "operation": "add_value",
           "slot": "feet"
         },
         {
           "type": "minecraft:step_height",
-          "id": "minecraft:",
+          "id": "minecraft:b",
           "amount": 0.5,
           "operation": "add_value",
           "slot": "feet"

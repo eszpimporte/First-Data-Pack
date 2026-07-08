@@ -15,28 +15,28 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:",
+          "id": "minecraft:c",
           "amount": 10,
           "operation": "add_value",
           "slot": "chest"
         },
         {
           "type": "minecraft:armor_toughness",
-          "id": "minecraft:",
+          "id": "minecraft:c",
           "amount": 4,
           "operation": "add_value",
           "slot": "chest"
         },
         {
           "type": "minecraft:knockback_resistance",
-          "id": "minecraft:",
+          "id": "minecraft:c",
           "amount": 0.1,
           "operation": "add_value",
           "slot": "chest"
         },
         {
           "type": "minecraft:max_health",
-          "id": "minecraft:",
+          "id": "minecraft:c",
           "amount": 2,
           "operation": "add_value",
           "slot": "chest"

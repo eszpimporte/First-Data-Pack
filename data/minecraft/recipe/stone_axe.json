@@ -1,1 +1,54 @@
-{"type":" "}
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:iron_ingot",
+    "minecraft:zombie_spawn_egg"
+  ],
+  "result": {
+    "components": {
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:entity_interaction_range",
+          "id": "minecraft:a",
+          "amount": -1,
+          "operation": "add_value",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "minecraft:block_interaction_range",
+          "id": "minecraft:a",
+          "amount": -1,
+          "operation": "add_value",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "minecraft:attack_damage",
+          "id": "minecraft:a",
+          "amount": 0,
+          "operation": "add_value",
+          "display": {
+            "type": "hidden"
+          }
+        },
+        {
+          "type": "minecraft:block_break_speed",
+          "id": "minecraft:p",
+          "amount": 0,
+          "operation": "add_value",
+          "display": {
+            "type": "hidden"
+          }
+        }
+      ],
+      "minecraft:max_damage": 50,
+      "minecraft:item_name": "Scie de fortune"
+    },
+    "count": 1,
+    "id": "minecraft:stone_axe"
+  }
+}

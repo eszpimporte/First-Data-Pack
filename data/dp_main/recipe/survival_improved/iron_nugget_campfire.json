@@ -1,9 +1,9 @@
 {
-  "type": "minecraft:blasting",
+  "type": "minecraft:campfire_cooking",
   "category": "misc",
   "ingredient": "minecraft:raw_iron",
   "result": {
     "id": "minecraft:iron_nugget"
   },
-  "cookingtime": 120
+  "cookingtime": 600
 }

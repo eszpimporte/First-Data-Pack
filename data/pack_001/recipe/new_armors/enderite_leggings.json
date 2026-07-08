@@ -15,28 +15,28 @@
       "minecraft:attribute_modifiers": [
         {
           "type": "minecraft:armor",
-          "id": "minecraft:",
+          "id": "minecraft:l",
           "amount": 8,
           "operation": "add_value",
           "slot": "legs"
         },
         {
           "type": "minecraft:armor_toughness",
-          "id": "minecraft:",
+          "id": "minecraft:l",
           "amount": 4,
           "operation": "add_value",
           "slot": "legs"
         },
         {
           "type": "minecraft:knockback_resistance",
-          "id": "minecraft:",
+          "id": "minecraft:l",
           "amount": 0.1,
           "operation": "add_value",
           "slot": "legs"
         },
         {
           "type": "minecraft:fall_damage_multiplier",
-          "id": "minecraft:",
+          "id": "minecraft:l",
           "amount": -0.5,
           "operation": "add_value",
           "slot": "legs"
